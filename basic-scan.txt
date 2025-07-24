@@ -10,6 +10,11 @@ This command runs a **basic Nmap scan** on the target machine `192.168.153.129` 
 - `192.168.153.129` → target IP address (Metasploitable in this case).
 - `-oN basic-scan.txt` → saves the scan output in a readable format to a file named `basic-scan.txt`.
 
+### 🔍 Basic Nmap Scan Screenshot
+
+<p align="center">
+  <img src="basic-scan.png" alt="Nmap Scan Output" width="100%">
+</p>
 
 # Nmap 7.95 scan initiated Thu Jul 24 11:20:15 2025 as: /usr/lib/nmap/nmap --privileged -oN basic-scan.txt 192.168.153.129
 Nmap scan report for 192.168.153.129
