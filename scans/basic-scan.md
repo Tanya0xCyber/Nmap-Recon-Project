@@ -13,12 +13,13 @@ This command runs a **basic Nmap scan** on the target machine `192.168.153.129` 
 ### 🔍 Basic Nmap Scan Screenshot
 
 <p align="center">
-  <img src="screenshots/basic-scan.1.png" alt="Nmap Scan Output" width="100%">
+  <img src="screenshots/basic-scan.png" alt="Nmap Scan Output" width="100%">
 </p>
 
 
 
-⚠️ Vulnerabilities, Exploits, and Fixes (Basic Scan)
+⚠️ Vulnerabilities, Exploits, and Fixes (Basic Scan) :
+
 Note: This scan doesn’t give versions, so we suspect vulnerabilities based on service type only.
 
 | Port        | Service | Possible Vulnerability               | How to Exploit (Basic Idea)                  | How to Fix (Mitigation)               |
