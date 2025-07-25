@@ -22,28 +22,28 @@ This project demonstrates a beginner-friendly yet professional approach to **net
 
 ---
 
-📁 Project Structure
+## 📁 Project Structure
 
-📦 Network-Recon-Nmap/
-├── 📁 scans/                      # All Nmap scan result files 
-│   ├── basic-scan.md
-│   ├── version-detection-scan.md
-│   ├── os-detection-scan.md
-│   ├── tcp-connect-scan.md
-│   ├── udp-scan.md
-│   └── script-scan.md
-│
-├── 📁 screenshots/                         # Screenshots of Nmap scan outputs
-│   ├── basic-scan.png
-│   ├── version-detection-scan.png
-│   ├── os-detection-scan.png
-│   ├── tcp-connect-scan.png
-│   ├── udp-scan.png
-│   └── script-scan.png
-│
-├── 📄 README.md                   # Main project overview and usage instructions
-├── 📄 vulnerability-summary.md   # Key vulnerabilities + risks explained simply
-├── 📄 system-hardening.md        # Mitigations and hardening strategies
+📦 Network-Recon-Nmap/<br>
+├── 📁 scans/                         # All Nmap scan result files  <br>
+│   ├── basic-scan.md               <br>
+│   ├── version-detection-scan.md<br>
+│   ├── os-detection-scan.md<br>
+│   ├── tcp-connect-scan.md<br>
+│   ├── udp-scan.md<br>
+│   └── script-scan.md<br><br>
+│  
+├── 📁 screenshots/                 # Screenshots of Nmap scan outputs  <br>
+│   ├── basic-scan.png<br>
+│   ├── version-detection-scan.png<br>
+│   ├── os-detection-scan.png><br>
+│   ├── tcp-connect-scan.png<br>
+│   ├── udp-scan.png<br>
+│   └── script-scan.png<br><br>
+│    
+├── 📄 README.md                                                  |  # Main project overview and usage instructions   <br>
+├── 📄 vulnerability-analysis.md                                  |# Key vulnerabilities + risks explained simply  <br>
+├── 📄 system-hardening.md                                         | # Mitigations and hardening strategies<br>
 
 
 
@@ -99,5 +99,5 @@ This project demonstrates a beginner-friendly yet professional approach to **net
 
 ---
 
-## 📁 Project Structure
+
 
