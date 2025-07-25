@@ -15,7 +15,7 @@ This command runs a **version detection scan** on the target machine `192.168.15
 ### 📸 Version Detection Scan Screenshot
 
 <p align="center">
-  <img src="screenshots/version-scan.png" alt="Version Detection Output" width="100%">
+  <img src="https://github.com/Tanya0xCyber/Nmap-Recon-Project/blob/main/screenshots/version-detection-scan.png" alt="Version Detection Output" width="100%">
 </p>
 
 ---
