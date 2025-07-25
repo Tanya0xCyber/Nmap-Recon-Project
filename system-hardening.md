@@ -23,11 +23,11 @@ After scanning the Metasploitable machine, I found many insecure services that c
 
 **Fix:**
 # Stop Telnet
-sudo systemctl stop telnet
+sudo systemctl stop telnet        <br>
 sudo systemctl disable telnet
 
 # Start SSH (more secure)
-sudo systemctl enable ssh
+sudo systemctl enable ssh       <br>
 sudo systemctl start ssh
 
 
@@ -43,7 +43,7 @@ sudo systemctl start ssh
 **Fix:**
 
 # Turn off FTP
-sudo systemctl stop vsftpd
+sudo systemctl stop vsftpd   <br>
 sudo systemctl disable vsftpd
 
 # Make sure SFTP is working (SFTP comes with SSH)
@@ -82,7 +82,7 @@ Some services like `rsh`, `rlogin`, etc. are outdated and should not be running.
 **Fix:**
 
 # These are not always installed, but I stopped them just in case
-sudo systemctl stop rsh
+sudo systemctl stop rsh  <br>
 sudo systemctl disable rsh
 
 
