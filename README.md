@@ -25,13 +25,13 @@ This project demonstrates a beginner-friendly yet professional approach to **net
 📁 Project Structure
 
 📦 Network-Recon-Nmap/
-├── 📁 scans/                      # All Nmap scan result files (.txt)
+├── 📁 scans/                      # All Nmap scan result files 
 │   ├── basic-scan.md
 │   ├── version-detection-scan.md
 │   ├── os-detection-scan.md
 │   ├── tcp-connect-scan.md
 │   ├── udp-scan.md
-│   └── default-script-scan.md
+│   └── script-scan.md
 │
 ├── 📁 screenshots/                         # Screenshots of Nmap scan outputs
 │   ├── basic-scan.png
