@@ -13,7 +13,7 @@ sudo nmap -O 192.168.153.129 -oN os-detection.txt
 ### 📸 Screenshot of OS Detection Scan Output :
 
 <p align="center">
-  <img src="screenshots/os-detection.png" alt="Nmap Scan Output" width="100%">
+  <img src="https://github.com/Tanya0xCyber/Nmap-Recon-Project/blob/main/screenshots/os-detection-scan.png" alt="Nmap Scan Output" width="100%">
 </p>
 
 Key Output (Simplified)
