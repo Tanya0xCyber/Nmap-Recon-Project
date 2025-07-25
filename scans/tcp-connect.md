@@ -18,7 +18,7 @@ The `-sT` option uses the full TCP three-way handshake, just like a real connect
 
 ### 🖼️ TCP Scan Output Screenshot
 <p align="center">
-  <img src="screenshots/tcp-connect.png" alt="Nmap Scan Output" width="100%">
+  <img src="https://github.com/Tanya0xCyber/Nmap-Recon-Project/blob/main/screenshots/tcp-connect-scan.png" alt="Nmap Scan Output" width="100%">
 </p>
 
 # ⚠️ Vulnerabilities, Exploits, and Fixes (Simple & Beginner Friendly)
