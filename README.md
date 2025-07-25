@@ -22,6 +22,31 @@ This project demonstrates a beginner-friendly yet professional approach to **net
 
 ---
 
+📁 Project Structure
+
+📦 Network-Recon-Nmap/
+├── 📁 scans/                      # All Nmap scan result files (.txt)
+│   ├── basic-scan.md
+│   ├── version-detection-scan.md
+│   ├── os-detection-scan.md
+│   ├── tcp-connect-scan.md
+│   ├── udp-scan.md
+│   └── default-script-scan.md
+│
+├── 📁 screenshots/                         # Screenshots of Nmap scan outputs
+│   ├── basic-scan.png
+│   ├── version-detection-scan.png
+│   ├── os-detection-scan.png
+│   ├── tcp-connect-scan.png
+│   ├── udp-scan.png
+│   └── script-scan.png
+│
+├── 📄 README.md                   # Main project overview and usage instructions
+├── 📄 vulnerability-summary.md   # Key vulnerabilities + risks explained simply
+├── 📄 system-hardening.md        # Mitigations and hardening strategies
+
+
+
 ## 📊 Scans Performed
 
 | Scan Type            | Command Used                                        | Purpose |
