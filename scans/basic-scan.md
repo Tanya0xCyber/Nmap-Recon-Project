@@ -13,7 +13,7 @@ This command runs a **basic Nmap scan** on the target machine `192.168.153.129` 
 ### 🔍 Basic Nmap Scan Screenshot
 
 <p align="center">
-  <img src="screenshots/basic-scan.png" alt="Nmap Scan Output" width="100%">
+  <img src="https://github.com/Tanya0xCyber/Nmap-Recon-Project/blob/main/screenshots/basic-scan.png" alt="Nmap Scan Output" width="100%">
 </p>
 
 
