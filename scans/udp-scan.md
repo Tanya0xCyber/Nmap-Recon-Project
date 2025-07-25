@@ -13,7 +13,7 @@ This command runs a **UDP scan** on the **top 100 most common UDP ports** of the
 ## 📸 Screenshot:
 
 <p align="center">
-  <img src="screenshots/udp-scan.png" alt="Nmap Scan Output" width="100%">
+  <img src="https://github.com/Tanya0xCyber/Nmap-Recon-Project/blob/main/screenshots/udp-scan.png" alt="Nmap Scan Output" width="100%">
 </p>
 
 ## 📊 Vulnerability Table
