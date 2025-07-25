@@ -21,7 +21,7 @@ These scripts go **beyond open ports** — they actively test how services behav
 ### 📸 Screenshot of the Output:
 
 <p align="center">
-  <img src="screenshots/script -scan.png" alt="Nmap Scan Output" width="100%">
+  <img src="screenshots/script-scan.png" alt="Nmap Scan Output" width="100%">
 </p>
 
 
