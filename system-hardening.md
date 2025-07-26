@@ -15,25 +15,25 @@ After scanning the Metasploitable machine, I found many insecure services that c
 
 ---
 
-## 🧰 How I Fixed Each One (Step-by-Step)
+### 🧰 How I Fixed Each One (Step-by-Step)
 
-### 1. ❌ Disabled Telnet and ➕ Enabled SSH
+# 1. ❌ Disabled Telnet and ➕ Enabled SSH
 
 **Telnet is risky** because hackers can read your username and password from network traffic.
 
 **Fix:**
-# Stop Telnet
+* Stop Telnet
 sudo systemctl stop telnet        <br>
 sudo systemctl disable telnet
 
-# Start SSH (more secure)
+* Start SSH (more secure)
 sudo systemctl enable ssh       <br>
 sudo systemctl start ssh
 
 
 ---
 
-### 2. ❌ Turned off FTP and ✅ Used SFTP
+# 2. ❌ Turned off FTP and ✅ Used SFTP
 
 **FTP is unsafe** because:
 
@@ -42,46 +42,46 @@ sudo systemctl start ssh
 
 **Fix:**
 
-# Turn off FTP
+* Turn off FTP
 sudo systemctl stop vsftpd   <br>
 sudo systemctl disable vsftpd
 
-# Make sure SFTP is working (SFTP comes with SSH)
-# Open SSH config
+** Make sure SFTP is working (SFTP comes with SSH)
+*  Open SSH config
 sudo nano /etc/ssh/sshd_config
 
-# Check if this line is there (and not commented)
+** Check if this line is there (and not commented)
 Subsystem sftp /usr/lib/openssh/sftp-server
 
-# Restart SSH to apply changes
+*  Restart SSH to apply changes
 sudo systemctl restart ssh
 
 ---
 
-### 3. 🔒 Blocked Ports 21 and 23 (Firewall Setup)
+# 3. 🔒 Blocked Ports 21 and 23 (Firewall Setup)
 
 Even after turning off FTP and Telnet, their ports (21, 23) were still open. I blocked them using `iptables`.
 
 **Fix:**
 
-# Block FTP port
+*  Block FTP port
 sudo iptables -A INPUT -p tcp --dport 21 -j DROP
 
-# Block Telnet port
+* Block Telnet port
 sudo iptables -A INPUT -p tcp --dport 23 -j DROP
 
-# Save the firewall settings
+*  Save the firewall settings
 sudo iptables-save > /etc/iptables/rules.v4
 
 ---
 
-### 4. 📴 Turned off Old/Unused Services
+# 4. 📴 Turned off Old/Unused Services
 
 Some services like `rsh`, `rlogin`, etc. are outdated and should not be running.
 
 **Fix:**
 
-# These are not always installed, but I stopped them just in case
+* These are not always installed, but I stopped them just in case
 sudo systemctl stop rsh  <br>
 sudo systemctl disable rsh
 
