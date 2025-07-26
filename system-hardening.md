@@ -22,13 +22,13 @@ After scanning the Metasploitable machine, I found many insecure services that c
 **Telnet is risky** because hackers can read your username and password from network traffic.
 
 **Fix:**
-* Stop Telnet
-sudo systemctl stop telnet        <br>
-sudo systemctl disable telnet
+* Stop Telnet -- 
+   `sudo systemctl stop telnet`        <br>
+   `sudo systemctl disable telnet`
 
-* Start SSH (more secure)
-sudo systemctl enable ssh       <br>
-sudo systemctl start ssh
+* Start SSH (more secure) --
+   `sudo systemctl enable ssh`       <br>
+   `sudo systemctl start ssh`
 
 
 ---
@@ -42,19 +42,19 @@ sudo systemctl start ssh
 
 **Fix:**
 
-* Turn off FTP
-sudo systemctl stop vsftpd   <br>
-sudo systemctl disable vsftpd
+* Turn off FTP --
+   `sudo systemctl stop vsftpd`   <br>
+   `sudo systemctl disable vsftpd`
 
 ** Make sure SFTP is working (SFTP comes with SSH)
-*  Open SSH config
-sudo nano /etc/ssh/sshd_config
+*  Open SSH config -- <br> 
+   `sudo nano /etc/ssh/sshd_config`
 
-** Check if this line is there (and not commented)
-Subsystem sftp /usr/lib/openssh/sftp-server
+** Check if this line is there (and not commented) -- <br> 
+   `Subsystem sftp /usr/lib/openssh/sftp-server`
 
-*  Restart SSH to apply changes
-sudo systemctl restart ssh
+*  Restart SSH to apply changes -- <br>
+  `sudo systemctl restart ssh`
 
 ---
 
@@ -64,14 +64,14 @@ Even after turning off FTP and Telnet, their ports (21, 23) were still open. I b
 
 **Fix:**
 
-*  Block FTP port
-sudo iptables -A INPUT -p tcp --dport 21 -j DROP
+*  Block FTP port --    <br>
+    `sudo iptables -A INPUT -p tcp --dport 21 -j DROP`
 
-* Block Telnet port
-sudo iptables -A INPUT -p tcp --dport 23 -j DROP
+* Block Telnet port -- <br> 
+    `sudo iptables -A INPUT -p tcp --dport 23 -j DROP`
 
-*  Save the firewall settings
-sudo iptables-save > /etc/iptables/rules.v4
+*  Save the firewall settings -- <br> 
+    `sudo iptables-save > /etc/iptables/rules.v4`
 
 ---
 
@@ -82,8 +82,8 @@ Some services like `rsh`, `rlogin`, etc. are outdated and should not be running.
 **Fix:**
 
 * These are not always installed, but I stopped them just in case
-sudo systemctl stop rsh  <br>
-sudo systemctl disable rsh
+    `sudo systemctl stop rsh`  <br>
+     `sudo systemctl disable rsh`
 
 
 ---
