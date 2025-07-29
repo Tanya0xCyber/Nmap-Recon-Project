@@ -3,7 +3,7 @@
 
 **🛠️ Command Used : 
 
-sudo nmap -sC 192.168.153.129 -oN default-script-scan.txt
+    sudo nmap -sC 192.168.153.129 -oN default-script-scan.txt
 
 
 **📌 What this command does :**
