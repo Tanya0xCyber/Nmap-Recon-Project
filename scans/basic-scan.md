@@ -1,7 +1,7 @@
 # 🔍 Basic Nmap Scan (`nmap <target-ip>`)
 
 ## 🧪 Command Used
-nmap 192.168.153.129 -oN basic-scan.txt
+    nmap 192.168.153.129 -oN basic-scan.txt
 
 ## 🛠️ What It Does:
 This command runs a **basic Nmap scan** on the target machine `192.168.153.129` to discover which **TCP ports** are open and what services might be running on them.
@@ -21,6 +21,7 @@ This command runs a **basic Nmap scan** on the target machine `192.168.153.129` 
 ⚠️ Vulnerabilities, Exploits, and Fixes (Basic Scan) :
 
 Note: This scan doesn’t give versions, so we suspect vulnerabilities based on service type only.
+
 
 | Port        | Service | Possible Vulnerability               | How to Exploit (Basic Idea)                  | How to Fix (Mitigation)               |
 | ----------- | ------- | ------------------------------------ | -------------------------------------------- | ------------------------------------- |
