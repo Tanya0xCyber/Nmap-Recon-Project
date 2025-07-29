@@ -2,7 +2,7 @@
 
 ### ✅ Command Used :
 
-nmap -sT 192.168.153.129 -oN tcp-connect.txt
+    nmap -sT 192.168.153.129 -oN tcp-connect.txt
 
 ### 📌 What it Does : 
 
