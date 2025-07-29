@@ -1,7 +1,7 @@
 ## 📁 OS Detection Scan using Nmap (`-O` flag)
 
 ### 🧪 Command Used : 
-sudo nmap -O 192.168.153.129 -oN os-detection.txt
+    sudo nmap -O 192.168.153.129 -oN os-detection.txt
 
 * `sudo`: Required to run OS detection
 * `nmap`: The scanning tool
@@ -34,6 +34,7 @@ This tells us:
 ---
 
 ### ⚠️ OS-Level Vulnerabilities (in Simple Terms)
+
 
 | 🔎 Vulnerability Name           | 💬 Explanation (Non-Techie)                           | 🎯 What Hacker Can Do                    | 🛠️ Fix/Defense                                 |
 | ------------------------------- | ----------------------------------------------------- | ---------------------------------------- | ----------------------------------------------- |
