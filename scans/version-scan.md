@@ -1,7 +1,8 @@
 # 🔍 Version Detection Scan (`nmap -sV`)
 
 ## 🧪 Command Used :
-nmap -sV 192.168.153.129 -oN version-scan.txt
+
+    nmap -sV 192.168.153.129 -oN version-scan.txt
 
 
 ## 🛠️ What It Does:
