@@ -1,8 +1,10 @@
 
 ## 📌 UDP Scan Report
 
-> **Command Used:**
-sudo nmap -sU --top-ports 100 192.168.153.129 -oN udp-top100.txt
+
+🛠️ Command Used : 
+
+     sudo nmap -sU --top-ports 100 192.168.153.129 -oN udp-top100.txt
 
 
 ### 🔍 What It Does:
