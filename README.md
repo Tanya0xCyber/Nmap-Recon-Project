@@ -1,10 +1,10 @@
-# 🔐 Network Reconnaissance & Vulnerability Discovery using Nmap
+#  Network Reconnaissance & Vulnerability Discovery using Nmap
 
 This project demonstrates a beginner-friendly yet professional approach to **network scanning, vulnerability discovery**, and **initial system hardening**, using **Nmap** against a Metasploitable VM in a home cybersecurity lab.
 
 ---
 
-## 🎯 Project Objectives
+##  Project Objectives
 
 - Understand and utilize different types of Nmap scans for active network reconnaissance.
 - Identify potentially vulnerable services on a target machine.
@@ -14,7 +14,7 @@ This project demonstrates a beginner-friendly yet professional approach to **net
 
 ---
 
-## 🛠️ Tools & Setup
+##  Tools & Setup
 
 - **Operating Systems**: Kali Linux (Attacker), Metasploitable 2 (Target)
 - **Platform**: VMware Workstation
@@ -22,18 +22,19 @@ This project demonstrates a beginner-friendly yet professional approach to **net
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
+```
 📦 Network-Recon-Nmap/<br>
-├── 📁 scans/                         # All Nmap scan result files  <br>
-│   ├── basic-scan.md               <br>
+├── 📁 scans/                         # All Nmap scan result files 
+│   ├── basic-scan.md              
 │   ├── version-detection-scan.md<br>
 │   ├── os-detection-scan.md<br>
 │   ├── tcp-connect-scan.md<br>
 │   ├── udp-scan.md<br>
 │   └── script-scan.md<br><br>
 │  
-├── 📁 screenshots/                 # Screenshots of Nmap scan outputs  <br>
+├── 📁 screenshots/                 # Screenshots of Nmap scan outputs  
 │   ├── basic-scan.png<br>
 │   ├── version-detection-scan.png<br>
 │   ├── os-detection-scan.png><br>
@@ -41,13 +42,13 @@ This project demonstrates a beginner-friendly yet professional approach to **net
 │   ├── udp-scan.png<br>
 │   └── script-scan.png<br><br>
 │    
-├── 📄 README.md                                                  |  # Main project overview and usage instructions   <br>
-├── 📄 vulnerability-analysis.md                                  |# Key vulnerabilities + risks explained simply  <br>
-├── 📄 system-hardening.md                                         | # Mitigations and hardening strategies<br>
+├── 📄 README.md                    # Main project overview and usage instructions   
+├── 📄 vulnerability-analysis.md    # Key vulnerabilities + risks explained simply  
+├── 📄 system-hardening.md          # Mitigations and hardening strategies
 
+```
 
-
-## 📊 Scans Performed
+##  Scans Performed
 
 | Scan Type            | Command Used                                        | Purpose |
 |----------------------|-----------------------------------------------------|---------|
@@ -71,18 +72,18 @@ This project demonstrates a beginner-friendly yet professional approach to **net
 
 ---
 
-## 🛡️ Fixes & System Hardening
+##  Fixes & System Hardening
 
 | Vulnerability       | Fix Applied / Suggested                      |
 |---------------------|----------------------------------------------|
-| Telnet (Port 23)     | ✅ Replaced with SSH                         |
-| FTP (Port 21)        | ✅ Replaced with SFTP                        |
-| RPC, NetBIOS, NFS    | 🔒 Restrict with firewall rules (iptables)  |
-| rsh, VNC, RLogin     | 🔒 Disable unused legacy services           |
+| Telnet (Port 23)     |  Replaced with SSH                         |
+| FTP (Port 21)        |  Replaced with SFTP                        |
+| RPC, NetBIOS, NFS    |  Restrict with firewall rules (iptables)  |
+| rsh, VNC, RLogin     |  Disable unused legacy services           |
 
 ---
 
-## 🧠 Key Learnings
+##  Key Learnings
 
 - Multiple Nmap scans provide layered visibility into target systems.
 - Legacy services like Telnet, FTP, and NetBIOS are highly vulnerable and should be replaced or hardened.
@@ -91,13 +92,7 @@ This project demonstrates a beginner-friendly yet professional approach to **net
 
 ---
 
-## 🔭 Next Steps (In Progress)
 
-- Simulate real-world exploit (e.g., vsFTPd backdoor or Tomcat Manager RCE)
-- Capture network traffic using Wireshark and analyze data flow
-- Expand project into full attack-defense simulation (MITM, log analysis, etc.)
-
----
 
 
 
