@@ -52,16 +52,16 @@ This project demonstrates a beginner-friendly yet professional approach to **net
 
 | Scan Type            | Command Used                                        | Purpose |
 |----------------------|-----------------------------------------------------|---------|
-| 1️⃣ Basic TCP Scan    | `nmap <target>`                                     | Discover open TCP ports |
-| 2️⃣ TCP Connect Scan  | `nmap -sT <target>`                                 | Check service accessibility |
-| 3️⃣ Version Detection | `nmap -sV <target>`                                 | Identify software versions |
-| 4️⃣ OS Detection      | `nmap -O <target>`                                  | Guess OS and device type |
-| 5️⃣ Default Script    | `nmap -sC <target>`                                 | Run common NSE scripts |
-| 6️⃣ Top 100 UDP Ports | `nmap -sU --top-ports 100 <target>`                | Discover open UDP services |
+| 1️. Basic TCP Scan    | `nmap <target>`                                     | Discover open TCP ports |
+| 2️. TCP Connect Scan  | `nmap -sT <target>`                                 | Check service accessibility |
+| 3️. Version Detection | `nmap -sV <target>`                                 | Identify software versions |
+| 4️. OS Detection      | `nmap -O <target>`                                  | Guess OS and device type |
+| 5️. Default Script    | `nmap -sC <target>`                                 | Run common NSE scripts |
+| 6️. Top 100 UDP Ports | `nmap -sU --top-ports 100 <target>`                | Discover open UDP services |
 
 ---
 
-## 🚨 Vulnerabilities Identified
+##  Vulnerabilities Identified
 
 | Category           | Ports       | Services        | Description                               | Risk Level |
 |--------------------|-------------|------------------|-------------------------------------------|------------|
