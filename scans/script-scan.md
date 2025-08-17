@@ -1,5 +1,5 @@
 
-###  Nmap Default Script Scan (`-sC`)
+#  Nmap Default Script Scan (`-sC`)
 
 ## Command Used : 
 
