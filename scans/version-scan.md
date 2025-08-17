@@ -1,11 +1,11 @@
-# 🔍 Version Detection Scan (`nmap -sV`)
+#  Version Detection Scan (`nmap -sV`)
 
-## 🧪 Command Used :
+##  Command Used :
 
     nmap -sV 192.168.153.129 -oN version-scan.txt
 
 
-## 🛠️ What It Does:
+##  What It Does:
 
 This command runs a **version detection scan** on the target machine `192.168.153.129` to discover not only which **ports** are open, but also which **services** and **versions** are running on those ports.
 
@@ -13,7 +13,7 @@ This command runs a **version detection scan** on the target machine `192.168.15
 * `192.168.153.129` → Metasploitable target IP.
 * `-oN version-scan.txt` saves the scan result in readable format to a file.
 
-### 📸 Version Detection Scan Screenshot
+###  Version Detection Scan Screenshot
 
 <p align="center">
   <img src="https://github.com/Tanya0xCyber/Nmap-Recon-Project/blob/main/screenshots/version-detection-scan.png" alt="Version Detection Output" width="100%">
@@ -21,7 +21,7 @@ This command runs a **version detection scan** on the target machine `192.168.15
 
 ---
 
-### ⚠️ Vulnerabilities, Exploits, and Fixes (Version Detection Scan)
+###  Vulnerabilities, Exploits, and Fixes (Version Detection Scan)
 
 This scan reveals detailed service versions, allowing us to identify **known vulnerabilities** for each.
 
@@ -39,7 +39,7 @@ This scan reveals detailed service versions, allowing us to identify **known vul
 
 ---
 
-### 🧾 Summary of Version Detection Scan
+###  Summary of Version Detection Scan
 
 * Several services were found running outdated and vulnerable versions.
 * FTP, Samba, IRC, MySQL, and Apache had known CVEs linked to their versions.
