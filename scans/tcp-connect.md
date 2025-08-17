@@ -1,10 +1,10 @@
-## 🔍 Basic Nmap TCP Connect Scan (`nmap -sT`)
+# Basic Nmap TCP Connect Scan (`nmap -sT`) :
 
-### ✅ Command Used :
+## Command Used :
 
     nmap -sT 192.168.153.129 -oN tcp-connect.txt
 
-### 📌 What it Does : 
+## What it Does : 
 
 This command runs a **TCP Connect Scan** on the target machine (`192.168.153.129`) to:
 
@@ -16,12 +16,14 @@ The `-sT` option uses the full TCP three-way handshake, just like a real connect
 
 
 
-### 🖼️ TCP Scan Output Screenshot
+###  TCP Scan Output Screenshot :
+
 <p align="center">
   <img src="https://github.com/Tanya0xCyber/Nmap-Recon-Project/blob/main/screenshots/tcp-connect-scan.png" alt="Nmap Scan Output" width="100%">
 </p>
 
-# ⚠️ Vulnerabilities, Exploits, and Fixes (Simple & Beginner Friendly)
+
+### Vulnerabilities, Exploits, and Fixes (Simple & Beginner Friendly)
 
 | Port | Service    | What’s the Risk (Simple Words)                      | How a Hacker Might Use It                | How to Fix (Mitigation)                     |
 | ---- | ---------- | --------------------------------------------------- | ---------------------------------------- | ------------------------------------------- |
@@ -40,9 +42,9 @@ The `-sT` option uses the full TCP three-way handshake, just like a real connect
 
 ---
 
-### 🧾 Summary of the TCP Connect Scan
+###  Summary of the TCP Connect Scan
 
-* ✅ **Host is up**, scanned successfully.
-* ✅ **23 TCP ports** are open and running various services.
-* ⚠️ Some **services may be vulnerable** if not secured.
-* 🛠️ Simple misconfigurations (like no password, old services) can be fixed easily.
+*  **Host is up**, scanned successfully.
+*  **23 TCP ports** are open and running various services.
+*  Some **services may be vulnerable** if not secured.
+*  Simple misconfigurations (like no password, old services) can be fixed easily.
