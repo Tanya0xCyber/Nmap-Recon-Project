@@ -1,6 +1,6 @@
-## 📁 OS Detection Scan using Nmap (`-O` flag)
+##  OS Detection Scan using Nmap (`-O` flag)
 
-### 🧪 Command Used : 
+###  Command Used : 
     sudo nmap -O 192.168.153.129 -oN os-detection.txt
 
 * `sudo`: Required to run OS detection
@@ -10,7 +10,7 @@
 
 ---
 
-### 📸 Screenshot of OS Detection Scan Output :
+###  Screenshot of OS Detection Scan Output :
 
 <p align="center">
   <img src="https://github.com/Tanya0xCyber/Nmap-Recon-Project/blob/main/screenshots/os-detection-scan.png" alt="Nmap Scan Output" width="100%">
@@ -33,7 +33,7 @@ This tells us:
 
 ---
 
-### ⚠️ OS-Level Vulnerabilities (in Simple Terms)
+###  OS-Level Vulnerabilities :
 
 
 | 🔎 Vulnerability Name           | 💬 Explanation (Non-Techie)                           | 🎯 What Hacker Can Do                    | 🛠️ Fix/Defense                                 |
@@ -51,12 +51,12 @@ This tells us:
 
 ---
 
-### 📌 Summary
+###  Summary :
 
-* 🎯 **OS Detected:** Linux 2.6.9 – 2.6.33
-* ⚠️ **Main Issue:** It’s **outdated and unsupported** with over 10 known vulnerabilities
-* 🧨 **Risk Level:** High — even without service issues, attackers can exploit the **kernel itself**
-* ✅ **What to Do:**
+*  **OS Detected:** Linux 2.6.9 – 2.6.33
+*  **Main Issue:** It’s **outdated and unsupported** with over 10 known vulnerabilities
+*  **Risk Level:** High — even without service issues, attackers can exploit the **kernel itself**
+*  **What to Do:**
 
   * Upgrade to a newer Linux distribution (like Ubuntu 22, Debian 11)
   * Apply all system patches
