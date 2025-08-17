@@ -1,24 +1,24 @@
 
-## 📌 UDP Scan Report
+#  UDP Scan Report
 
 
-🛠️ Command Used : 
+## Command Used : 
 
      sudo nmap -sU --top-ports 100 192.168.153.129 -oN udp-top100.txt
 
 
-### 🔍 What It Does:
+##  What It Does:
 
 This command runs a **UDP scan** on the **top 100 most common UDP ports** of the target (`192.168.153.129`). UDP-based services often run silently and are **missed in normal TCP scans**, making them ideal for stealthy attacks if not secured.
 
 
-## 📸 Screenshot:
+###  Screenshot:
 
 <p align="center">
   <img src="https://github.com/Tanya0xCyber/Nmap-Recon-Project/blob/main/screenshots/udp-scan.png" alt="Nmap Scan Output" width="100%">
 </p>
 
-## 📊 Vulnerability Table
+##  Vulnerability Table
 
 | Port | Service | What It Does                             | Risk if Misconfigured                             | What You Can Do                                      |
 | ---- | ------- | ---------------------------------------- | ------------------------------------------------- | ---------------------------------------------------- |
@@ -29,10 +29,10 @@ This command runs a **UDP scan** on the **top 100 most common UDP ports** of the
 
 ---
 
-## 🧾 Summary of the UDP Scan
+##  Summary of the UDP Scan
 
-✅ Host is up and responsive. <br>
-✅ 4 open UDP ports detected: `53`, `111`, `137`, `2049`.<br>
-⚠️ These services can leak info or allow unauthorized access if misconfigured.<br>
-🛠️ Many can be disabled or locked down using firewall rules or service configurations.<br>
-🔒 This scan helps reveal **hidden risks** not seen in TCP scans.<br>
+* Host is up and responsive. <br>
+* 4 open UDP ports detected: `53`, `111`, `137`, `2049`.<br>
+* These services can leak info or allow unauthorized access if misconfigured.<br>
+* Many can be disabled or locked down using firewall rules or service configurations.<br>
+* This scan helps reveal **hidden risks** not seen in TCP scans.<br>
