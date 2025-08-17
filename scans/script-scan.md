@@ -1,12 +1,12 @@
 
-### 🔍 Nmap Default Script Scan (`-sC`)
+###  Nmap Default Script Scan (`-sC`)
 
-**🛠️ Command Used : 
+## Command Used : 
 
     sudo nmap -sC 192.168.153.129 -oN default-script-scan.txt
 
 
-**📌 What this command does :**
+## What this command does :
 
 This runs **Nmap's built-in default scripts** to detect:
 
@@ -18,16 +18,16 @@ This runs **Nmap's built-in default scripts** to detect:
 These scripts go **beyond open ports** — they actively test how services behave and respond to common attacks.
 
 
-### 📸 Screenshot of the Output:
+###  Screenshot of the Output:
 
 <p align="center">
   <img src="https://github.com/Tanya0xCyber/Nmap-Recon-Project/blob/main/screenshots/script-scan.png" alt="Nmap Scan Output" width="100%">
 </p>
 
 
-### ⚠️ Vulnerabilities Found via Script Scan (New Table)
+### Vulnerabilities Found via Script Scan (New Table)
 
-> 🧠 These are issues **only revealed** by script scan — not seen in basic, TCP, or version scans.
+>  These are issues **only revealed** by script scan — not seen in basic, TCP, or version scans.
 
 | Port    | Service    | Vulnerability / Misconfiguration    | How It Was Detected                                       | How It Can Be Exploited                                 | Fix Recommendation                               |
 | ------- | ---------- | ----------------------------------- | --------------------------------------------------------- | ------------------------------------------------------- | ------------------------------------------------ |
@@ -43,11 +43,11 @@ These scripts go **beyond open ports** — they actively test how services behav
 
 
 
-### 🧾 Summary of the Default Script Scan (`-sC`)
+### Summary :
 
-✅ Host is up and responded to default scripts.<br>
-✅ Detected useful info like software versions, anonymous access, and weak configs.<br>
-⚠️ Some default services are misconfigured or leaking sensitive information.<br>
-⚠️ Services like FTP, NFS, SMB, and RServices are exposing data or accepting insecure logins.<br>
-🛠️ These issues can be fixed by disabling anonymous access, updating services, and tightening permissions.<br>
+*  Host is up and responded to default scripts.<br>
+* Detected useful info like software versions, anonymous access, and weak configs.<br>
+* Some default services are misconfigured or leaking sensitive information.<br>
+* Services like FTP, NFS, SMB, and RServices are exposing data or accepting insecure logins.<br>
+* These issues can be fixed by disabling anonymous access, updating services, and tightening permissions.<br>
 
